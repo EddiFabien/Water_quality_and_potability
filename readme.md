@@ -14,7 +14,7 @@ L'objectif principal est d'évaluer et de prédire la potabilité de l'eau en fo
 
 le plan est le suivant :
 
--   Analyse exploratoire de données (EDA): faire une EDA dans le but de connaître le mieux possible les données, de comprendre l'interaction entre les variables et j'accompagne tous ça avec des tableaux et des graphiques ainsi que leurs interpretations.
+-   Analyse exploratoire de données (EDA): faire un EDA dans le but de connaître le mieux possible les données, de comprendre l'interaction entre les variables et j'accompagne tous ça avec des tableaux et des graphiques ainsi que leurs interpretations.
 -   Apprentissage automatique: faire un pré-traitement de données et choisir les modèles de classification de l'apprentissage supervisé, de les entraîner, de les évaluer afin de prendre le modèle le plus performant parmis eux.
 
 #### Outils et langages utilisées pendant la réalisation:
@@ -27,5 +27,5 @@ le plan est le suivant :
 
 -   dataset : contient l'ensemble de données
 -   doc : contient le résultat de l'analyse exploratoire de données.
--   code.ipynb : explication
+-   code.ipynb : contient le code
 -   readme.md : explication
