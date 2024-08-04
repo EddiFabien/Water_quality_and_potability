@@ -1,4 +1,4 @@
-## C'est un projet dans le site du Kaggle et mon premier projet personnel sur la création d'un modèle de classification de l'apprentissage supervisé
+## C'est un projet dans le site du Kaggle et mon premier projet personnel sur la création d'un modèle de l'apprentissage supervisé pour la classification binaire
 
 #### Descriptions:
 
@@ -19,13 +19,13 @@ le plan est le suivant :
 
 #### Outils et langages utilisées pendant la réalisation:
 
--   OS : Ubuntu
--   Outils : VSCode, LibreOffice
+-   OS : Ubuntu, Windows
+-   Outils : VSCode, MSWord
 -   Langage : python
 
 #### Dossiers et fichiers:
 
 -   dataset : contient l'ensemble de données
 -   doc : contient le résultat de l'analyse exploratoire de données.
--   code.ipynb : contient le code
+-   code: contient le code avec un fichier commentaire.md
 -   readme.md : explication

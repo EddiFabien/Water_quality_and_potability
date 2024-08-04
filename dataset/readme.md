@@ -4,15 +4,15 @@ Cet ensemble de données contient des mesures et des évaluations de la qualité
 
 #### Description de ses colonnes:
 
--   pH : Le niveau de pH de l'eau.
--   Dureté : Dureté de l'eau, une mesure de la teneur en minéraux.
--   Solides : Total des solides dissous dans l'eau.
--   Chloramines : Concentration de chloramines dans l'eau.
--   Sulfate : Concentration de sulfate dans l'eau.
--   Conductivité : Conductivité électrique de l'eau.
--   Carbone_organique : Teneur en carbone organique dans l'eau.
--   Trihalométhanes : Concentration de trihalométhanes dans l'eau.
--   Turbidité : Niveau de turbidité, une mesure de la clarté de l'eau.
+-   pH : Le niveau de pH de l'eau. (entre [0,14])
+-   Dureté (mg/L): Dureté de l'eau, une mesure de la teneur en minéraux.
+-   Solides (ppm): Total des solides dissous dans l'eau.
+-   Chloramines (ppm): Concentration de chloramines dans l'eau.
+-   Sulfate (mg/L): Concentration de sulfate dans l'eau.
+-   Conductivité (μS/cm): Conductivité électrique de l'eau.
+-   Carbone_organique (ppm): Teneur en carbone organique dans l'eau.
+-   Trihalométhanes (μg/L): Concentration de trihalométhanes dans l'eau.
+-   Turbidité (NTU): Niveau de turbidité, une mesure de la clarté de l'eau.
 -   Potabilité : Variable cible ; indique la potabilité de l'eau avec des valeurs 1 (potable) et 0 (non potable).
 
 ### Source des données :
