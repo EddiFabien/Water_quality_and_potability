@@ -8,7 +8,7 @@
 
 #### Objectif principal :
 
-L'objectif principal est **de créer un modèle de l'apprentissage supervisé** à partir d'un ensemble de données **dans le but de prédire la potabilité de l'eau en fonction des attributs de qualité de l'eau**. 
+L'objectif principal est **de créer un modèle de l'apprentissage supervisé** à partir d'un ensemble de données **dans le but de prédire la potabilité de l'eau en fonction des attributs de qualité de l'eau** avec une perfomance de **50% pour le recall** et **70% pour le f1**.
 
 #### L'ensemble de données :
 
@@ -27,7 +27,6 @@ Cet ensemble de données contient des mesures et des évaluations de la qualité
 -   *Turbidité (NTU)*: Niveau de turbidité, une mesure de la clarté de l'eau.
 -   *Potabilité* : Variable cible ; indique la potabilité de l'eau avec des valeurs 1 (potable) et 0 (non potable).
 
-
 #### Plan d'action :
 
 le plan est le suivant :
@@ -44,19 +43,20 @@ le plan est le suivant :
 #### Dossiers et fichiers :
 
 -   dataset : contient l'ensemble de données
--   EDA.pdf : le résultat de l'analyse exploratoire de données.
 -   code.ipynb : le code
+-   EDA.pdf : le résultat de l'analyse exploratoire de données.
+-   potability_model.pkl : le model créé
 
 #### Resultats finals:
 
 **Analyse exploratoire de données :**
--	Les proportions de deux classes de la potabilité ne sont pas équilibré.
--	On a une très faibles voir aucune corrélation entre tous les attributs de qualité de l'eau.
+
+-   Les proportions de deux classes de la potabilité ne sont pas équilibré.
+-   On a une très faibles voir aucune corrélation entre tous les variables.
 -   On trouve 15% de valeurs manquantes dans l'attribut pH, 24% dans la Sulfate et 49% dans la Trihalométhanes.
--	Il y a des valeurs extrêmes dans tous les attributs.
+-   Il y a des valeurs extrêmes dans tous les attributs.
 
 **Apprentissage automatique :**
--   Je trouve que l'algorithme `RandomForestClassifier` est le plus performant par rapport aux autres algorithmes de classification avec **un score f1 de 48.23%** et **un score recall de 48.23%**.
--   La perfomance de ce modèle n'est pas vraiment très bonne parce que le nombre des variables est insuffisant pour faire entraîner et valider ce modèle ou peut-être à cause de manque de corrélation entre les attributs.
 
-
+-   Je trouve que l'algorithme `RandomForestClassifier` est le plus performant par rapport aux autres algorithmes de classification avec **un score recall de 35.66%** et **un score f1 de 48.24%** puis je le sauvegarde.
+-   La perfomance de ce modèle n'est pas vraiment très bonne par rapport à l'objectif parce que peut-être le nombre des variables est insuffisant pour faire entraîner et valider ce modèle ou peut-être à cause de manque de corrélation entre les variables features et la variable target.
